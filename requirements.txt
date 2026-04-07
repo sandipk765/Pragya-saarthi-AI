@@ -1,0 +1,21 @@
+# ── Core UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Grok AI (install ONE of the following) ─────────────────────────────────
+# Option 1: xgrok official SDK
+xgrok>=0.5.0
+
+# Option 2: OpenAI SDK with x.ai base URL (uncomment if xgrok unavailable):
+# openai>=1.0.0
+
+# ── Vector Search ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+
+# ── Data ──────────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0
